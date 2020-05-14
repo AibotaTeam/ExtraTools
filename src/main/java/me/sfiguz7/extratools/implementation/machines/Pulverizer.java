@@ -69,7 +69,7 @@ public class Pulverizer extends AContainer implements RecipeDisplayItem {
 
     @Override
     public String getInventoryTitle() {
-        return "&cPulverizer";
+        return "&c粉碎机";
     }
 
     @Override

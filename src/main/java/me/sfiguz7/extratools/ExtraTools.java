@@ -37,13 +37,13 @@ public class ExtraTools extends JavaPlugin implements SlimefunAddon {
 
         new Hammer().register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "HAMMER"),
-                        ++researchId, "Hammer", 3),
+                        ++researchId, "锤子", 3),
                 ETItems.HAMMER
         );
 
         new GoldTransmuter().register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "GOLD_TRANSMUTER"),
-                        ++researchId, "Gold Transmuter", 12),
+                        ++researchId, "黄金变压器", 12),
                 ETItems.GOLD_TRANSMUTER
         );
 
@@ -61,7 +61,7 @@ public class ExtraTools extends JavaPlugin implements SlimefunAddon {
 
         }.register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "ELECTRIC_COMPOSTER"),
-                        ++researchId, "Electric Composter", 18),
+                        ++researchId, "电动堆肥机", 18),
                 ETItems.ELECTRIC_COMPOSTER
         );
 
@@ -79,31 +79,31 @@ public class ExtraTools extends JavaPlugin implements SlimefunAddon {
 
         }.register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "ELECTRIC_COMPOSTER_2"),
-                        ++researchId, "Electric Composter II", 18),
+                        ++researchId, "电动堆肥机 II", 18),
                 ETItems.ELECTRIC_COMPOSTER_2
         );
 
         new CobblestoneGenerator().register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "COBBLESTONE_GENERATOR"),
-                        ++researchId, "Cobblestone Generator", 40),
+                        ++researchId, "圆石发电机", 40),
                 ETItems.COBBLESTONE_GENERATOR
         );
 
         new Vaporizer().register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "VAPORIZER"),
-                        ++researchId, "Vaporizer", 18),
+                        ++researchId, "蒸发器", 18),
                 ETItems.VAPORIZER
         );
 
         new ConcreteFactory().register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "CONCRETE_FACTORY"),
-                        ++researchId, "Concrete Factory", 12),
+                        ++researchId, "混凝土工厂", 12),
                 ETItems.CONCRETE_FACTORY
         );
 
         new Pulverizer().register(this);
         Slimefun.registerResearch(new Research(new NamespacedKey(this, "PULVERIZER"),
-                        ++researchId, "Pulverizer", 18),
+                        ++researchId, "粉碎机", 18),
                 ETItems.PULVERIZER
         );
 
